@@ -1,11 +1,11 @@
 require("dotenv").config();
 
-const MODEL = "gpt-3.5-turbo";
+const MODEL = "gpt-4o-mini";
 const API_KEY = process.env.OPENAI_API_KEY;
 const PURPOSE = ["business", "leisure", "adventure", "filming"];
 const CLOTHING_STYLES = ["formal", "casual", "sporty", "mix"];
 const PACKING_STYLES = ["light", "heavy", "minimalist", "normal"];
-const GENDER = ["male", "female"];
+const GENDER = ["male", "female","other"];
 const JSON_SCHEMA = {
   essentials: [],
   Clothing: [],

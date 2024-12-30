@@ -1,0 +1,14 @@
+POSt http://localhost:3000/api/generate HTTP/1.1
+
+Content-Type: application/json
+
+{
+  "destination": "Paris, France",
+  "days": 7,
+  "gender": "Female",
+  "purpose": "Leisure",
+  "clothing_style": "Casual",
+  "packing_style": "Minimalist",
+  "outdoor_activities": "Sightseeing, Park Visit",
+  "indoor_activities": "Museum Visit, Fine Dining"
+}
